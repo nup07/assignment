@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+background-color: #FFF8E1;
+font-family: Arial, sans-serif;
+}
+.top-header-Menu
+{
+text-align: center;
+margin: 0px;
+padding: 20px;
+animation: fadeIn 2s ease-in-out;
+}
+
+.top-header-Menu h1,h3 {
+    margin: 0; 
+    padding: 2px;
+}
+
+.nav-links
+{
+	list-style: none;
+	display: flex;
+	gap: 35px;
+	justify-content: center;
+	padding: 16px;
+	margin: 0px;
+	animation: fadeIn 2s ease-in-out;
+}
+.nav-links li a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+}
+.nav-links li a:hover{
+	color:#FF7043;
+}
+
+.center-Menu
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadeIn 2s ease-in-out;
+}
+.momolist{
+	text-align: left;
+	margin: 20px auto;
+	width: 90%;
+	font-family: Arial,sans-serif;
+	animation: fadeIn 2s ease-in-out;
+
+}
+.momo-container{
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	gap: 20px ;
+}
+.momo-image
+{
+	height: 250px;
+	width: auto;
+	object-fit: cover;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgb(0, 0, 0 / 0.1);
+	animation: fadeIn 2s ease-in-out;
+	transition: transform 0.5s ease-in-out;
+}
+.momo-image:hover{
+	transform: scale(1.02);
+}
+.Momo-Menu table{
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+	font-size: 18px;
+	animation: fadeIn 2s ease-in-out;
+
+}
+.Momo-Menu th, td{
+	border:1px solid #ddd;
+	padding: 10px;
+}
+.Momo-Menu th{
+	font-weight: bold;
+}
+
+
+
+.Pizza-Items{
+	text-align: right;
+	margin: 20px auto;
+	width: 90%;
+	font-family: Arial,sans-serif;
+	animation: fadeIn 2s ease-in-out;
+}
+.Pizza-container{
+	display: flex;
+	align-items: right;
+	justify-content: right;
+	gap: 20px ;
+}
+.Pizza-Image{
+	height: 250px;
+	width: 350px;
+	object-fit: cover;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgb(0, 0, 0 / 0.1);
+	animation: fadeIn 2s ease-in-out;
+	transition: transform 0.5s ease-in-out;
+}
+.Pizza-Image:hover{
+	transform: scale(1.02);
+}
+.Pizza-Menu table{
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+	font-size: 18px;
+	animation: fadeIn 2s ease-in-out;
+}
+.Pizza-Menu  th,td{
+  border:1px solid #ddd;
+	padding: 10px;
+}
+.Pizza-Menu  th{
+	font-weight: bold;
+}
+
+
+
+
+.Platter{
+	text-align: left;
+	margin: 20px auto;
+	width: 90%;
+	font-family: Arial,sans-serif;
+	animation: fadeIn 2s ease-in-out;
+}
+.Platter-container{
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	gap: 20px ;
+}
+.platter-Image{
+	height: 330px;
+	width: auto;
+	object-fit: cover;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgb(0, 0, 0 / 0.1);
+	animation: fadeIn 2s ease-in-out;
+	transition: transform 0.5s ease-in-out;
+}
+.platter-Image:hover{
+	transform: scale(1.02);
+}
+.Platter-Menu table{
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+	font-size: 18px;
+	animation: fadeIn 2s ease-in-out;
+}
+.Platter-Menu th, td{
+	border:1px solid #ddd;
+	padding: 10px;
+}
+.Platter-Menu th {
+	font-weight: bold;
+}
+
+
+
+.Tandoori{
+	text-align: right;
+	margin: 20px auto;
+	width: 90%;
+	font-family: Arial,sans-serif;
+	animation: fadeIn 2s ease-in-out;
+}
+.Tandoori-container{
+	display: flex;
+	align-items: right;
+	justify-content: right;
+	gap: 20px ;
+}
+.Tandoori-Image{
+	height: 250px;
+	width: auto;
+	object-fit: cover;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgb(0, 0, 0 / 0.1);
+	animation: fadeIn 2s ease-in-out;
+	transition: transform 0.5s ease-in-out;
+}
+.Tandoori-Image:hover{
+	transform: scale(1.02);
+}
+.Tandoori-Menu table{
+border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+	font-size: 18px;
+	animation: fadeIn 2s ease-in-out;
+}
+.Tandoori-Menu th,td{
+	border:1px solid #ddd;
+	padding: 10px;
+}
+.Tandoori-Menu th{
+	font-weight: bold;
+}
+
+
+
+
+
+.Salad{
+	text-align: left;
+	margin: 20px auto;
+	width: 90%;
+	font-family: Arial,sans-serif;
+	animation: fadeIn 2s ease-in-out;
+}
+.Salad-container{
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	gap: 20px ;
+}
+.Salad-Image{
+	height: 330px;
+	width: auto;
+	object-fit: cover;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgb(0, 0, 0 / 0.1);
+	animation: fadeIn 2s ease-in-out;
+	transition: transform 0.5s ease-in-out;
+}
+.Salad-Image:hover{
+	transform: scale(1.02);
+}
+.Salad-Menu table{
+border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+	font-size: 18px;
+	animation: fadeIn 2s ease-in-out;
+}
+.Salad-Menu th,td{
+	border:1px solid #ddd;
+	padding: 10px;
+}
+.Salad-Menu th{
+	font-weight: bold;
+}
+
+
+
+
+.Dessert{
+	text-align: right;
+	margin: 20px auto;
+	width: 90%;
+	font-family: Arial,sans-serif;
+	animation: fadeIn 2s ease-in-out;
+}
+.Dessert-container{
+	display: flex;
+	align-items: right;
+	justify-content: right;
+	gap: 20px ;
+}
+.Dessert-image{
+	height: 330px;
+	width: auto;
+	object-fit: cover;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgb(0, 0, 0 / 0.1);
+	animation: fadeIn 2s ease-in-out;
+	transition: transform 0.5s ease-in-out;
+}
+.Dessert-image:hover{
+	transform: scale(1.02);
+}
+.Dessert-Menu table{
+border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+	font-size: 18px;
+	animation: fadeIn 2s ease-in-out;
+}
+.Dessert-Menu th,td{
+	border:1px solid #ddd;
+	padding: 10px;
+}
+.Dessert-Menu th{
+	font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+	font-weight: bold;
+    border-top: 2px solid black;
+    animation: fadeIn 4s ease-in-out;
+}
+
+
+/* anmainations key */
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+

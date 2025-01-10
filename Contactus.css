@@ -1,0 +1,158 @@
+
+body {
+    background-color: #FFF8E1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-header-Menu {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.top-header-Menu h1, .top-header-Menu h3 {
+    margin: 0;
+    padding: 2px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: #FF7043;
+}
+
+
+.head-of-contact {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.head-of-contact p {
+    font-size: 22px;
+    font-weight: lighter; 
+    color: #333;
+}
+
+
+.middle {
+    text-align: center;
+    padding: 20px;
+    color: #555;
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+.container {
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    height: auto; 
+    max-width: 500px; 
+    background-color:transparent;
+    border-radius: 10px;
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    animation: fadeIn 2s ease-in-out;
+}
+
+.tablecontent {
+    background-color: #FFF8E1;
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+    width: 100%; 
+    border-collapse: collapse; 
+    animation: fadeIn 2s ease-in-out;
+}
+
+.tablecontent caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tablecontent td {
+    padding: 8px;
+    text-align: left;
+}
+
+.tablecontent input, .tablecontent textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.tablecontent input[type="submit"]{
+    background-color: skyblue;
+    transition: tranfrom 0.2s ease-in-out;
+}
+.tablecontent input[type="submit"]:hover{
+    transform: scale(1.02);
+}
+
+.map {
+    text-align: center;
+    margin: 20px 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.map iframe {
+    border-radius: 10px;
+    width: 90%; 
+    max-width: 300px;
+    height: 250px;
+}
+
+.ContactUs, .time, .cta {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.ContactUs h2, .time h2 {
+    font-size: 22px;
+    color: #444;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+	font-weight: bold;
+    border-top: 2px solid black;
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

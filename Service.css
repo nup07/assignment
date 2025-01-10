@@ -1,0 +1,136 @@
+body{
+background-color: #FFF8E1;
+font-family: Arial, sans-serif;
+}
+.top-header-Menu
+{
+    text-align: center; 
+    margin: 0 px;     
+    padding: 20px;  
+    animation: fadeIn 2s ease-in-out;    
+}
+
+.top-header-Menu h1,h2,h3,p {
+    margin: 0; 
+}
+
+.nav-links
+{
+	list-style: none;
+	display: flex;
+	gap: 35px;
+	justify-content: center;
+	padding: 0px;
+	margin: 0px;
+    animation: fadeIn 2s ease-in-out;
+}
+.nav-links li a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+}
+.nav-links li a:hover{
+	color:#FF7043 ;
+}
+.head-our-services{
+	text-align: center;
+    animation: fadeIn 2s ease-in-out;
+
+
+}
+.head-our-services p{
+	font-size: 20px;
+	font-weight: bold;
+}
+.Services-Image1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.Services-Image1 img {
+
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+	transition: transform 0.5s ease-in-out;
+}
+.Services-Image1 img:hover{
+	transform: scale(1.02);
+}
+
+.fea {
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.fea h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #4E342E;
+}
+
+.fea ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fea li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+
+.music {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.music img {
+    max-width: 80%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transition: transform 0.5s ease-in-out;
+    animation: fadeIn 2s ease-in-out;
+}
+.music:hover{
+	transform: scale(1.02);
+}
+.Extra{
+	text-align: center;
+	padding: 10px;
+    animation: fadeIn 2s ease-in-out;
+	
+}
+.Extra ul{
+	list-style: none;
+}
+.Extra ul li{
+	font-size: 17px bold;
+}
+
+footer{
+	text-align: center;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 14px;
+	border-top: 2px solid black;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
