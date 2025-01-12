@@ -122,6 +122,45 @@ footer {
     animation: fadeIn 4s ease-in-out;
 }
 
+
+@media screen and (max-width: 480px) {
+.image-center {
+    border-radius: 20px;
+    height: auto;
+    width: 90%;
+    animation: fadeIn 3s ease-in-out;
+    transition: transform 0.5s ease;
+    
+}
+.image-center:hover{
+    transform: scale(1.02);
+}
+.content-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.left-image {
+    border-radius: 10px;
+    height: auto;
+    width: 90%;
+    animation: fadeIn 2s ease-in-out;
+    transition: transform 0.5s ease;
+}
+.left-image:hover{
+    transform: scale(1.02);
+}
+.content-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+}
+
+
 /* Keyframes for Animations */
 @keyframes fadeIn {
     0% {
